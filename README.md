@@ -12,3 +12,10 @@ Encoding Conflicts: The raw dataset contained regional symbols (like the British
 Date Formatting Hurdles: The source data used a non-standard DD-MM-YYYY format, which conflicted with PostgreSQL's default MDY expectation. I bypassed this by dynamically setting the session datestyle to DMY.
 
 Data Integrity & Cleaning: Managed "dirty" data, including missing customer IDs and negative quantities (returns), by building a secondary cleaning layer within analytical queries to ensure accuracy.
+
+📈 Business Outcomes
+Identified "Whale" Customers: Discovered that a small percentage of 'High Value' customers drive the majority of consistent revenue.
+
+Seasonal Clarity: Pinpointed a massive Q4 revenue surge, allowing for better inventory planning for future holiday seasons.
+
+Actionable Product Insights: Highlighted top-selling items with high "Customer Worth," suggesting these products should be the focus of ad campaigns.
